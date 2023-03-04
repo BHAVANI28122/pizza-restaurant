@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ruda";
+    color: #ffffff;
+}
+.header{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.header p{
+font-size: 29px;
+font-weight: 700;
+letter-spacing: 0.06em;
+padding-left: 40px;
+}
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+nav li a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: #ffffff;
+}
+nav li{
+    list-style-type: none;
+    padding: 10px 20px;
+    font-family: Ruda;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+.icons i{
+    padding: 10px 40px;
+    font-size: 24px;
+}
+#menubar{
+    
+    font-size: 20px;
+}
+.main{
+width:100%;
+height: 828px;
+background-image:url(./images/801cf713555ea70ba295e8de05e15650.jfif);
+background-position: center;
+background-size: cover;
+position: relative;
+top: 100px;
+}
+.text{
+    position: absolute;
+    color: #ffffff; 
+    left: 80px; 
+    top: 80px;
+    background-color: none;
+}
+
+.craving-text p{
+font-family: "Quattrocento";
+font-size: 101px;
+font-weight: 700;
+line-height: 109px;
+letter-spacing: 0.09em;
+width: 900px;
+height: 250px;
+margin: 30px 0px;
+}
+.line{
+height: 13px;
+width: 586px;
+background: #F24C4C;
+margin-bottom: 80px;
+offset: 3px 6px rgba(0,0,0,0.25) ;
+}
+.craving-text2 p{
+    height: 300px;
+    width: 599px;
+    text-align: justify;
+    font-size: 25px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.09em;
+
+
+}
+.text-arrange{
+    text-align: center;
+    padding: 40px 0px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.text-arrange p{
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: 400px;
+}
+.text-arrange .line{
+    position: absolute;
+    right: 650px;
+    height: 10px;
+}
+.About-Us{
+    background-color: black;
+    padding: 80px 0px;
+    margin-top:60px;
+    font-size: 25px;
+   
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 1320px;
+    margin:  auto;
+}
+.about-container p{
+font-size: 25px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.09em;
+text-align: left;
+
+}
+.about-container div{
+ flex-basis: 40%;
+}
+.about-container img{
+height: 506px;
+width: 631px;
+border-radius: 10px;
+}
+.about-container .line{
+    margin-bottom: 20px;
+    height: 4px;
+}
+.menu{
+    background-color: black;
+    padding: 40px 0px;
+}
+.menu .text-arrange{
+    margin-top: 0px;
+}
+.menu-text {
+width: 1315px;
+text-align: justify;
+margin: auto;
+}
+.menu-text p{
+    font-size: 25px;
+    padding: 20px 0px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.09em;
+text-align: left;
+
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.menu-container div{
+    flex-basis: 50%;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.item p{
+    font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.09em;
+text-align: left;
+
+}
+.item div h3{
+    font-size: 28px;
+    color: #F2C94C;
+    font-weight: 400px;
+}
+.Find-Us{
+    background-color: black;
+
+}
+.find-container{
+    width: 1320px;
+    margin: auto;
+    padding: 40px 0px;
+}
+.find-width{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.find-width p{
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.09em;
+}
+.find-width div{
+    flex-basis: 40%;
+    margin-top:20px;
+    justify-content: space-between;
+}
+.findus-text {
+ font-size: 25px;
+ text-align: justify;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.09em;
+text-align: left;
+
+}
+.findus-icons{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+.findus-icons div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.findus-icons div i{
+    width: 40px;
+    height: 50px;
+    font-size: 35px;
+    padding-right: 30px;
+}
+.Footer{
+    background-color: black;
+    padding: 50px 0px;
+}
+.footer-container{
+    height: 200px;
+    width: 1600px; 
+    display: flex;
+    justify-content: space-around;
+}
+.footer-container div{
+    flex-basis: 560px auto;
+}
+.emailbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+   
+
+}
+.emailbox p{
+font-family: Ruda;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.09em;
+
+}
+.emailbox div{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px 0px;
+}
+.emailbox i{
+    font-size: 35px;
+    padding-right: 30px;
+}
+
+@media (max-width:700px){
+   nav{
+    display: none;
+   }
+   .icons{
+    display: none;
+   }
+   .craving-text{
+    width: 150px;
+   }
+   .craving-text p{
+     font-size: 40px;
+     line-height: 1.2;
+     height: 100px;
+   }
+   .text .line{
+      margin: 20px 0px;
+      width: 250px ;
+      height: 4px;
+   }
+   .craving-text2 p{
+     
+    width: 250px;
+    font-size: 16px;
+    line-height: 1.9;
+   }
+
+}
+/* header*/
+
+
+@media(max-width:700px){
+    
+    .text-arrange p{
+        font-size: 25px;
+        text-align: center;
+        width: 400px;
+    }
+    .text-arrange .line{
+        height: 6px;
+        width: 300px;
+        left: 60px;
+    }
+    .about-container{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 0px 30px;
+        
+    }
+    .about-container .line{
+        width: 300px;
+    }
+    .about-container  div{
+          width: 350px;
+         justify-items: center;  
+    }
+    .about-container div p{
+        font-size: 20px;
+    }
+    .about-container img{
+        width: 350px;
+        height: 350px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .About-Us{
+        padding: 0px;
+    }
+
+}
+@media (max-width:700px){
+    .menu{
+        padding-bottom: 10px;
+    }
+    .menu-text p{
+        font-size: 20px;
+        text-align: left;
+        width: 400px;
+    }
+    .menu-text{
+        margin: 0px 30px;
+    }
+    .menu-container{
+        display: flex;
+        flex-flow: column wrap; 
+    }
+    .item{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .item h3{
+         margin-top: 20px;
+    }
+}
+@media (max-width:700px) {
+   .Find-Us .text-arrange{
+    padding: 0px;
+   }
+   .Find-Us .text-arrange .line{
+    margin-bottom: 10px;
+   }
+   .find-container{
+    margin: 0px 30px;
+    padding: 0px;
+   }
+   .findus-text{
+    width: 400px;
+   }
+   .findus-icons div{
+    display: flex;
+    align-items: baseline;
+
+   }
+   .findus-icons p{
+    font-size: 18px;
+   }
+   .find-width img{
+    width: 350px;
+    height: 200px;
+   }
+   .findus-icons div i{
+    font-size: 20px;
+   }
+   .find-width{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+   }
+   
+}
