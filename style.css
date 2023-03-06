@@ -177,7 +177,7 @@ text-align: left;
 .item{
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 30px 0px;
 }
 .item p{
     font-size: 20px;
@@ -282,15 +282,17 @@ letter-spacing: 0.09em;
     padding-right: 30px;
 }
 
-@media (max-width:700px){
+/* header*/
+@media (max-width:600px){
+    
    nav{
     display: none;
    }
    .icons{
     display: none;
    }
-   .craving-text{
-    width: 150px;
+   .text{
+    left:30px;
    }
    .craving-text p{
      font-size: 40px;
@@ -298,26 +300,23 @@ letter-spacing: 0.09em;
      height: 100px;
    }
    .text .line{
-      margin: 20px 0px;
       width: 250px ;
       height: 4px;
    }
    .craving-text2 p{
      
-    width: 250px;
     font-size: 16px;
     line-height: 1.9;
    }
 
 }
-/* header*/
 
-
-@media(max-width:700px){
+/* about us*/
+@media(max-width:600px){
     
     .text-arrange p{
         font-size: 25px;
-        text-align: center;
+
         width: 400px;
     }
     .text-arrange .line{
@@ -348,19 +347,18 @@ letter-spacing: 0.09em;
         margin-top: 20px;
         margin-bottom: 0px;
     }
-    .About-Us{
-        padding: 0px;
-    }
+  
 
 }
-@media (max-width:700px){
-    .menu{
-        padding-bottom: 10px;
-    }
+/*menu*/
+@media (max-width:600px){
+   .menu{
+    padding: 0px;
+   }
     .menu-text p{
         font-size: 20px;
         text-align: left;
-        width: 400px;
+        width: 350px;
     }
     .menu-text{
         margin: 0px 30px;
@@ -377,19 +375,23 @@ letter-spacing: 0.09em;
          margin-top: 20px;
     }
 }
-@media (max-width:700px) {
+/* find us */
+@media (max-width:600px) {
    .Find-Us .text-arrange{
     padding: 0px;
+   }
+   .Find-Us .text-arrange p{
+    padding-top: 10px;
    }
    .Find-Us .text-arrange .line{
     margin-bottom: 10px;
    }
    .find-container{
     margin: 0px 30px;
-    padding: 0px;
+    padding-bottom: 30px;
    }
    .findus-text{
-    width: 400px;
+    width: 350px;
    }
    .findus-icons div{
     display: flex;
@@ -405,11 +407,35 @@ letter-spacing: 0.09em;
    }
    .findus-icons div i{
     font-size: 20px;
+    padding-right: 0px;
    }
    .find-width{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+    padding: 0px;
    }
    
+}
+/*footer*/
+@media (max-width:600px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        padding: 20px 0px;
+
+    }
+    .footer-container div svg{
+        width: 150px;
+    }
+    .emailbox div p{
+      font-size: 16px;
+    }
+    .emailbox div i{
+        font-size: 16px;
+    }
+    .emailbox div{
+        padding: 5px 0px;
+    }
 }
